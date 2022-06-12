@@ -1,10 +1,11 @@
 <template>
     <About 
         name="Ajay P Sakthikumar"
-        age="22"
+        age=22
         currentCity="Bangalore"
         homeTown="Munnar"
         email="sakthikumarajay@gmail.com"
+        githubUsername="CodeWizrd001"
         pic="logo.png"
     />
 </template>
