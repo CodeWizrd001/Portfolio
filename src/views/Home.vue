@@ -6,7 +6,7 @@
         homeTown="Munnar"
         email="sakthikumarajay@gmail.com"
         githubUsername="CodeWizrd001"
-        pic="logo.png"
+        pic="pic.jpg"
     />
 </template>
 
