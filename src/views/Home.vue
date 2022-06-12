@@ -2,6 +2,7 @@
     <About 
         name="Ajay P Sakthikumar"
         age=22
+        occupation="Developer"
         currentCity="Bangalore"
         homeTown="Munnar"
         email="sakthikumarajay@gmail.com"

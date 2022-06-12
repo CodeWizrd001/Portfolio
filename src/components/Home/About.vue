@@ -22,24 +22,32 @@
                     <span class="label">Public Repos</span>
                 </p>
             </div>
-            <div class="details">
-                <p>{{ age }} years old</p>
-                <p>{{ currentCity }}</p>
-                <p>{{ homeTown }}</p>
-                <p>{{ email }}</p>
-                <p>{{ githubUsername }}</p>
-            </div>
         </div>
+        <Card
+            :name="name"
+            :age="age"
+            :occupation="occupation"
+            :currentCity="currentCity"
+            :homeTown="homeTown"
+            :email="email"
+            :githubUsername="githubUsername"
+            :picUrl="picUrl"
+        />
     </div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
+import Card from '@/components/Home/Card.vue';
 
 @Options({
+    components: {
+        Card,
+    },
     props: {
         name: String,
         age: Number,
+        occupation: String,
         currentCity: String,
         homeTown: String,
         email: String,
@@ -50,6 +58,7 @@ import { Options, Vue } from 'vue-class-component';
 export default class About extends Vue {
     name!: string
     age!: number
+    occupation!: string
     currentCity!: string
     homeTown!: string
     email!: string
