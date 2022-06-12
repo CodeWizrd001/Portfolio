@@ -99,6 +99,10 @@ export default class About extends Vue {
     justify-content: center;
 }
 
+.info {
+    color: rgba(174, 194, 211,1) ;
+}
+
 .banner {
     width: 100%;
     height: 20vh;
@@ -177,7 +181,7 @@ export default class About extends Vue {
     border-style: dotted;    
     border-color: black;
     border-radius: 2vw;
-    background-color: rgba(0, 0, 25, 0.25);
+    background-color: rgba(13, 13, 70, 0.25);
     padding: 10px;
     // Grid column with 2 rows
     grid-column: 1 / span 2;
