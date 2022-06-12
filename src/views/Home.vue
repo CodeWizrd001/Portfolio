@@ -17,12 +17,7 @@ import About from "@/components/Home/About.vue";
 @Options({
     components: {
         About,
-    },
-    props: {
-        name: String
     }
 })
-export default class Home extends Vue {
-    name!: string
-}
+export default class Home extends Vue {}
 </script>

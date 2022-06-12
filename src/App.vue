@@ -1,15 +1,13 @@
 <template>
-  <Home name="New World"/>
+  <Home/>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
-import HelloWorld from './components/HelloWorld.vue';
 import Home from './views/Home.vue';
 
 @Options({
   components: {
-    HelloWorld,
     Home,
   },
 })
