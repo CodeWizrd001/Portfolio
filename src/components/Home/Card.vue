@@ -90,6 +90,7 @@ body {
    box-shadow:  0 22px 70px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.3);
    
    background: black;
+   margin-top: 20px;
    
    display: grid;
    grid-template-columns: 40% auto;
