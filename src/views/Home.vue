@@ -1,7 +1,7 @@
 <template>
     <About 
         name="Ajay P Sakthikumar"
-        age=22
+        :age="22"
         occupation="Developer"
         currentCity="Bangalore"
         homeTown="Munnar"

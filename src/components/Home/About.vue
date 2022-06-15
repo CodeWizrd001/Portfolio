@@ -25,7 +25,7 @@
         </div>
         <Card
             :name="name"
-            :age="age"
+            :age=age
             :occupation="occupation"
             :currentCity="currentCity"
             :homeTown="homeTown"
