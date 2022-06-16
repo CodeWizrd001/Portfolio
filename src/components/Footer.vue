@@ -1,16 +1,16 @@
 <template>
     <div class="footer-container">
         <div class="footer-div text-center center-block">
-            <a href="">
+            <a href="https://www.instagram.com/_._.ajay.__" target="_blank">
                 <img id="instagram" class="icon" src="https://img.icons8.com/color/452/instagram-new--v1.png">
             </a>
-            <a>
+            <a href="https://www.linkedin.com/in/ajay-sakthikumar-015a28b5" target="_blank">
                 <img id="linkedin" class="icon" src="https://img.icons8.com/color/452/linkedin-circled--v1.png">
             </a>
-            <a>
+            <a href="https://www.youtube.com/DragonPyli" target="_blank">
                 <img id="youtube" class="icon" src="https://img.icons8.com/color/452/youtube-play--v1.png">
             </a>
-            <a>
+            <a href="https://github.com/CodeWizrd001" target="_blank">
                 <img id="github" class="icon" src="https://img.icons8.com/windows/452/github.png">
             </a>
         </div>
@@ -37,23 +37,26 @@ export default class Footer extends Vue {}
 
 .footer-div {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 10px;
 }
 
 .footer-element {
-    padding: 10px;
-    margin-inline-start: 80px;
-    margin-inline-end: 80px;
+    padding: 2vw;
 }
 
 // only for a inside footer-div
 .footer-div  > a {
-    margin-inline: 10px;
+    margin-inline: calc(min(10px, 1vw));
 }
 
 .icon {
     width: 40px;
     height: 40px;
+}
+
+#github {
+    border-radius: 50%;
+    background-color: white;
 }
 </style>
