@@ -42,7 +42,7 @@ export default class Footer extends Vue {}
 }
 
 .footer-element {
-    padding: 2vw;
+    padding: 3vw;
 }
 
 // only for a inside footer-div
