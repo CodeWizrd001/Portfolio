@@ -13,6 +13,9 @@
             <a href="https://github.com/CodeWizrd001" target="_blank">
                 <img id="github" class="icon" src="https://img.icons8.com/windows/452/github.png">
             </a>
+            <a href="mailto:#" target="_blank">
+                <img id="mail" class="icon" src="https://img.icons8.com/color/452/gmail.png">
+            </a>
         </div>
     </div>
 </template>
