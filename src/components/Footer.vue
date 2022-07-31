@@ -1,5 +1,6 @@
 <template>
     <div class="footer-container">
+        Get in touch
         <div class="footer-div text-center center-block">
             <a href="https://www.instagram.com/_._.ajay.__" target="_blank">
                 <img id="instagram" class="icon" src="https://img.icons8.com/color/452/instagram-new--v1.png">
